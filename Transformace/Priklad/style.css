@@ -21,4 +21,30 @@ h2 {
 
 /* ----------------------- */
 
+.posun {
+  transition: 0.4s;
+}
 
+.posun:hover {
+  transform: translate(100px);
+}
+
+.rotace {
+  transition: 1s;
+  transform-origin: top left;
+}
+
+.rotace:hover {
+  transform: rotate(180deg);
+  background-color: yellow;
+  
+}
+
+.zvetseni {
+  transition: 1s;
+}
+
+.zvetseni:hover {
+  transform-origin: top left;
+  transform: scalex(1.5);
+}
